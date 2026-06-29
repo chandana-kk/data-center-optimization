@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.venv/
+__pycache__/
+*.pyc
+*.db
+.pytest_cache/
+.env
+.env.local
+postgres_data/
+data/*.csv
+data/*.xlsx
+data/*.pdf
+data/*.pptx
