@@ -22,8 +22,9 @@ export function Card({ className, children }: React.PropsWithChildren<{ classNam
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -4, boxShadow: "0 12px 40px rgba(34, 211, 238, 0.12)" }}
       transition={{ duration: 0.28 }}
-      className={cn("glass rounded-lg p-5", className)}
+      className={cn("glass rounded-lg p-5 transition-shadow duration-300", className)}
     >
       {children}
     </motion.div>
