@@ -1,4 +1,4 @@
-# NeuroDC - AI-Powered Autonomous Data Center Optimization Platform
+# NeuroDC - AI-Powered Autonomous Data Center Optimization Platform.
 
 NeuroDC is a production-oriented full-stack analytics platform for optimizing data center energy, cooling, cost, reliability, sustainability, and cloud infrastructure.
 
